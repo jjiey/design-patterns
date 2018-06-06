@@ -3,7 +3,7 @@ package com.bigTalkDesignPatterns.StrategyPattern;
 /**
  * 单元测试类
  * 
- * @author clarck
+ * @author yj
  * 
  */
 public class Main {

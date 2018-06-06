@@ -5,7 +5,7 @@ import com.bigTalkDesignPatterns.PatternsUtil;
 /**
  * 除法类
  * 
- * @author clarck
+ * @author yj
  * 
  */
 public class OperationDiv extends Operation {

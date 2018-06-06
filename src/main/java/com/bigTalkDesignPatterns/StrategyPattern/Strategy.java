@@ -3,7 +3,7 @@ package com.bigTalkDesignPatterns.StrategyPattern;
 /**
  * 抽象策略
  * 
- * @author clarck
+ * @author yj
  * 
  */
 public abstract class Strategy {

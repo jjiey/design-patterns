@@ -1,5 +1,11 @@
 package com.bigTalkDesignPatterns.FactoryPattern;
 
+/**
+ * 工厂类
+ *
+ * @author yj
+ *
+ */
 public class OperationFactory {
 
     public static Operation	createOperate  (String operate) {

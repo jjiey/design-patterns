@@ -1,15 +1,13 @@
 package com.bigTalkDesignPatterns.StrategyPattern;
 
 /**
- * 具体算A
+ * 算法A的具体实现
  * 
- * @author clarck
+ * @author yj
  * 
  */
 public class ConcreateStrategyA extends Strategy {
-	/**
-	 * 算法A的方法具体实现
-	 */
+
 	@Override
 	public void algorithmInterface() {
 		System.out.println("algorithm A implements !");

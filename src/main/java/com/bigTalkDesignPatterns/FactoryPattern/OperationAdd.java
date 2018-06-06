@@ -1,12 +1,9 @@
 package com.bigTalkDesignPatterns.FactoryPattern;
 
-import lombok.Getter;
-import lombok.Setter;
-
 /**
  * 加法类
  * 
- * @author clarck
+ * @author yj
  * 
  */
 public class OperationAdd extends Operation {

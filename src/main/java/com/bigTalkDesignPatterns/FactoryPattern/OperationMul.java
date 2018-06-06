@@ -1,9 +1,9 @@
 package com.bigTalkDesignPatterns.FactoryPattern;
 
 /**
- * 乘法
+ * 乘法类
  * 
- * @author clarck
+ * @author yj
  * 
  */
 public class OperationMul extends Operation {
