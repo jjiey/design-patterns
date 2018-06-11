@@ -1,5 +1,11 @@
 package com.bigTalkDesignPatterns.SingletonPattern;
 
+/**
+ * 单例类
+ *
+ * @author yj
+ *
+ */
 public class Singleton {
 	private static Singleton instance;
 
