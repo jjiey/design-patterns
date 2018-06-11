@@ -1,12 +1,11 @@
 package com.bigTalkDesignPatterns.MementoPattern;
 
-import lombok.Getter;
 import lombok.Setter;
 
 /**
  * 发起人
  * 
- * @author clarck
+ * @author yj
  * 
  */
 @Setter

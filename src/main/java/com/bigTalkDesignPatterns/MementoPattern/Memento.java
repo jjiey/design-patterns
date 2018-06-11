@@ -6,7 +6,7 @@ import lombok.Getter;
 /**
  * 备忘录
  * 
- * @author clarck
+ * @author yj
  * 
  */
 @Getter

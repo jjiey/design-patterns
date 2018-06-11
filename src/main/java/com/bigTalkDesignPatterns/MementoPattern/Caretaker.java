@@ -6,7 +6,7 @@ import lombok.Setter;
 /**
  * 管理者
  * 
- * @author clarck
+ * @author yj
  * 
  */
 @Getter
