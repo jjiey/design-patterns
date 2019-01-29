@@ -10,6 +10,6 @@ import com.bigTalkDesignPatterns.FactoryPattern.*;
  */
 public interface IFactory {
 
-    public Operation createOperation();
+    Operation createOperation();
 
 }

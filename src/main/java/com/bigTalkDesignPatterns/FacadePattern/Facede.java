@@ -7,6 +7,7 @@ package com.bigTalkDesignPatterns.FacadePattern;
  * 
  */
 public class Facede {
+
 	private SubSystemOne one;
 	private SubSystemTwo two;
 	private SubSystemThree three;
@@ -31,4 +32,5 @@ public class Facede {
 		two.methodTwo();
 		three.methodThree();
 	}
+
 }

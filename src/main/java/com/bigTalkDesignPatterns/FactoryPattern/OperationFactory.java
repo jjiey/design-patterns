@@ -8,7 +8,7 @@ package com.bigTalkDesignPatterns.FactoryPattern;
  */
 public class OperationFactory {
 
-    public static Operation	createOperate  (String operate) {
+    public static Operation	createOperate(String operate) {
         Operation oper = null;
         switch (operate) {
             case "+" :

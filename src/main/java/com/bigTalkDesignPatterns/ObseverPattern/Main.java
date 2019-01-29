@@ -7,6 +7,7 @@ package com.bigTalkDesignPatterns.ObseverPattern;
  *
  */
 public class Main {
+
 	public static void main(String[] args) {
 		ConcrateSubject concrateSubject = new ConcrateSubject();
 		concrateSubject.attach(new ConcrateObserver(concrateSubject, "X"));
@@ -16,4 +17,5 @@ public class Main {
 		concrateSubject.setSubjectState("ABC");
 		concrateSubject.notification();
 	}
+
 }

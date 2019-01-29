@@ -7,12 +7,15 @@ package com.bigTalkDesignPatterns.TemplatePattern;
  *
  */
 public class Main {
+
 	public static void main(String[] args) {
 		AbstractClass abstractClass;
+
 		abstractClass = new ConcrateClassA();
 		abstractClass.TemplateMethod();
 		
 		abstractClass = new ConcrateClassB();
 		abstractClass.TemplateMethod();
 	}
+
 }

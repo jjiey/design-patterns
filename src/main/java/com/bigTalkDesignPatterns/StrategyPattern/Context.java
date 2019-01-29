@@ -10,6 +10,7 @@ import lombok.AllArgsConstructor;
  */
 @AllArgsConstructor
 public class Context {
+
 	Strategy strategy;
 
 	//上下文接口

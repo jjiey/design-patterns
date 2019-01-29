@@ -7,6 +7,7 @@ package com.bigTalkDesignPatterns.BuilderPattern;
  *
  */
 public class ConcrateBuilder2 extends Builder {
+
 	private Product product = new Product();
 	
 	@Override

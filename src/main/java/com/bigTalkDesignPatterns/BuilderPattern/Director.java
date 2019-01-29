@@ -2,6 +2,7 @@ package com.bigTalkDesignPatterns.BuilderPattern;
 
 /**
  * 指挥者
+ * 控制构建过程，隔离用户与建造过程的关联
  * 
  * @author yj
  * 

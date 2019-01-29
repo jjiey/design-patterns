@@ -10,6 +10,7 @@ import lombok.Setter;
  * 
  */
 public class ConcrateObserver extends Observer {
+
 	private String name;
 	private String observerState;
 	@Getter

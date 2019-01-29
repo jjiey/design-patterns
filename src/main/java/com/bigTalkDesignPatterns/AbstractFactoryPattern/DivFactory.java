@@ -2,7 +2,6 @@ package com.bigTalkDesignPatterns.AbstractFactoryPattern;
 
 import com.bigTalkDesignPatterns.FactoryPattern.Operation;
 import com.bigTalkDesignPatterns.FactoryPattern.OperationDiv;
-import com.bigTalkDesignPatterns.PatternsUtil;
 
 /**
  * 除法工厂
@@ -16,4 +15,5 @@ public class DivFactory implements IFactory {
 	public Operation createOperation() {
 		return new OperationDiv();
 	}
+
 }

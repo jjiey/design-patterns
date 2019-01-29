@@ -13,6 +13,6 @@ import lombok.Setter;
 @Getter
 public class ConcrateSubject extends Subject {
 
-	private String subjectState;
+	private String subjectState; // 被观察者状态
 
 }

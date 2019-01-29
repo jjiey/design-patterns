@@ -8,9 +8,9 @@ package com.bigTalkDesignPatterns;
  */
 public class PatternsUtil {
 
-    public static void throwException(String exceptionMessage) {
+    public static void throwException(String message) {
         try {
-            throw new Exception(exceptionMessage);
+            throw new Exception(message);
         } catch (Exception e) {
             e.printStackTrace();
         }

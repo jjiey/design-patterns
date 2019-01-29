@@ -10,11 +10,11 @@ import java.util.List;
  * 
  */
 public class Subject {
-	private List<Observer> observers = new ArrayList<Observer>();
+
+	private List<Observer> observers = new ArrayList<>();
 
 	/**
 	 * 添加观察者
-	 * 
 	 * @param observer
 	 */
 	public void attach(Observer observer) {
@@ -23,7 +23,6 @@ public class Subject {
 
 	/**
 	 * 移除观察者
-	 * 
 	 * @param observer
 	 */
 	public void detach(Observer observer) {
@@ -38,4 +37,5 @@ public class Subject {
 			observer.update();
 		}
 	}
+
 }

@@ -10,7 +10,8 @@ import java.util.List;
  * 
  */
 public class Product {
-	private List<String> parts = new ArrayList<String>();
+
+	private List<String> parts = new ArrayList<>();
 
 	public void add(String part) {
 		parts.add(part);
@@ -22,4 +23,5 @@ public class Product {
 			System.out.println(part);
 		}
 	}
+
 }

@@ -7,8 +7,10 @@ package com.bigTalkDesignPatterns.StrategyPattern;
  * 
  */
 public abstract class Strategy {
+
 	/**
 	 * 抽象的算法方法
 	 */
 	public abstract void algorithmInterface();
+
 }
