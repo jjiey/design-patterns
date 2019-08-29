@@ -5,9 +5,7 @@ import com.bigTalkDesignPatterns.FactoryPattern.OperationMul;
 
 /**
  * 乘法工厂
- * 
  * @author yj
- * 
  */
 public class MulFactory implements IFactory {
 

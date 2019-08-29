@@ -5,9 +5,7 @@ import java.util.List;
 
 /**
  * 主题/抽象通知者
- * 
  * @author yj
- * 
  */
 public class Subject {
 

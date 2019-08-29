@@ -5,9 +5,7 @@ import com.bigTalkDesignPatterns.FactoryPattern.OperationAdd;
 
 /**
  * 加法工厂
- * 
  * @author yj
- * 
  */
 public class AddFactory implements IFactory {
 

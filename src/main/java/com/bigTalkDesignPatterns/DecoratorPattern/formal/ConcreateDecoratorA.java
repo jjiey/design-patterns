@@ -2,9 +2,7 @@ package com.bigTalkDesignPatterns.DecoratorPattern.formal;
 
 /**
  * 具体的装饰对象A，起到给Component添加职责的作用
- * 
  * @author yj
- * 
  */
 public class ConcreateDecoratorA extends Decorator {
 

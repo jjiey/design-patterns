@@ -2,9 +2,7 @@ package com.bigTalkDesignPatterns.AdapterPattern.formal;
 
 /**
  * 需要适配的类
- * 
  * @author yj
- * 
  */
 public class Adaptee {
 

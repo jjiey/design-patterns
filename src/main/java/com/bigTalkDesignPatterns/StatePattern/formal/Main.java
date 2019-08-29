@@ -2,9 +2,7 @@ package com.bigTalkDesignPatterns.StatePattern.formal;
 
 /**
  * 单元测试类
- *
  * @author yj
- *
  */
 public class Main {
 

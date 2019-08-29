@@ -5,9 +5,7 @@ import com.bigTalkDesignPatterns.FactoryPattern.OperationDiv;
 
 /**
  * 除法工厂
- * 
  * @author yj
- * 
  */
 public class DivFactory implements IFactory {
 

@@ -1,10 +1,8 @@
 package com.bigTalkDesignPatterns;
 
 /**
- * 一些工具类
- *
+ * 工具类
  * @author yj
- *
  */
 public class PatternsUtil {
 

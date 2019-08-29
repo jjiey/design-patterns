@@ -4,9 +4,7 @@ import lombok.AllArgsConstructor;
 
 /**
  * Context类，维护一个ConcrateState子类的实例，这个实例定义为当前的状态
- * 
  * @author yj
- * 
  */
 @AllArgsConstructor
 public class Context {

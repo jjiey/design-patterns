@@ -2,29 +2,27 @@ package com.bigTalkDesignPatterns.FactoryPattern;
 
 /**
  * 工厂类
- *
  * @author yj
- *
  */
 public class OperationFactory {
 
     public static Operation	createOperate(String operate) {
-        Operation oper = null;
+        Operation operation = null;
         switch (operate) {
             case "+" :
-                oper = new OperationAdd();
+                operation = new OperationAdd();
                 break;
             case "-" :
-                oper = new OperationSub();
+                operation = new OperationSub();
                 break;
             case "*" :
-                oper = new OperationMul();
+                operation = new OperationMul();
                 break;
             case "/" :
-                oper = new OperationDiv();
+                operation = new OperationDiv();
                 break;
         }
-        return oper;
+        return operation;
     }
 
 

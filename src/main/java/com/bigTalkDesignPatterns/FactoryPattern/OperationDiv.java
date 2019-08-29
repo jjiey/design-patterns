@@ -4,9 +4,7 @@ import com.bigTalkDesignPatterns.PatternsUtil;
 
 /**
  * 除法类
- * 
  * @author yj
- * 
  */
 public class OperationDiv extends Operation {
 
@@ -15,8 +13,7 @@ public class OperationDiv extends Operation {
 		if (getNumberB() == 0) {
 			PatternsUtil.throwException("the div number can't be zero.");
 		}
-		double result = getNumberA() / getNumberB();
-		return result;
+		return getNumberA() / getNumberB();
 	}
 
 }

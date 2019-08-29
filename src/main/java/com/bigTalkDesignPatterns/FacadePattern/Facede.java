@@ -2,9 +2,7 @@ package com.bigTalkDesignPatterns.FacadePattern;
 
 /**
  * 外观类 知道哪些子系统负责处理请求，将客户的请求代理给适当的子系统对象
- * 
  * @author yj
- * 
  */
 public class Facede {
 

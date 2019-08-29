@@ -2,9 +2,7 @@ package com.bigTalkDesignPatterns.DecoratorPattern.formal;
 
 /**
  * 具体的装饰对象B
- * 
  * @author yj
- * 
  */
 public class ConcreateDecoratorB extends Decorator {
 

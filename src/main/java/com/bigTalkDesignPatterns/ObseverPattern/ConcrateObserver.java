@@ -5,9 +5,7 @@ import lombok.Setter;
 
 /**
  * 具体观察者
- * 
  * @author yj
- * 
  */
 public class ConcrateObserver extends Observer {
 

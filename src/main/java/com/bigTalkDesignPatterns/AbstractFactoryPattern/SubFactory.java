@@ -5,9 +5,7 @@ import com.bigTalkDesignPatterns.FactoryPattern.OperationSub;
 
 /**
  * 减法工厂
- * 
  * @author yj
- * 
  */
 public class SubFactory implements IFactory {
 

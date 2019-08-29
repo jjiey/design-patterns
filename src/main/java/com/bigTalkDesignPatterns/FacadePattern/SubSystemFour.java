@@ -2,9 +2,7 @@ package com.bigTalkDesignPatterns.FacadePattern;
 
 /**
  * 子系统方法四
- * 
  * @author yj
- * 
  */
 public class SubSystemFour {
 
