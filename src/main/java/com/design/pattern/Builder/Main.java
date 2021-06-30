@@ -10,8 +10,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Director director = new Director();
-		Builder builder1 = new ConcrateBuilder1();
-		Builder builder2 = new ConcrateBuilder2();
+		Builder builder1 = new ConcreteBuilder1();
+		Builder builder2 = new ConcreteBuilder2();
 
 		director.Construct(builder1);
 		Product product1 = builder1.getResult();

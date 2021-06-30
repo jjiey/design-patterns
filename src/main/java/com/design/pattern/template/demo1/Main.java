@@ -10,10 +10,10 @@ public class Main {
 	public static void main(String[] args) {
 		AbstractClass abstractClass;
 
-		abstractClass = new ConcrateClassA();
+		abstractClass = new ConcreteClassA();
 		abstractClass.templateMethod();
 		
-		abstractClass = new ConcrateClassB();
+		abstractClass = new ConcreteClassB();
 		abstractClass.templateMethod();
 	}
 }

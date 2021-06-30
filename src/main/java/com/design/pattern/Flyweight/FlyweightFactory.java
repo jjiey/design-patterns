@@ -15,9 +15,9 @@ public class FlyweightFactory {
 	 * 也可以初始化时什么都不做，需要时再去判断对象是否为null来决定是否实例化
 	 */
 	public FlyweightFactory() {
-		flyweight.put("X", new ConcrateFlyweight());
-		flyweight.put("Y", new ConcrateFlyweight());
-		flyweight.put("Z", new ConcrateFlyweight());
+		flyweight.put("X", new ConcreteFlyweight());
+		flyweight.put("Y", new ConcreteFlyweight());
+		flyweight.put("Z", new ConcreteFlyweight());
 	}
 	
 	public Flyweight getFlyweight(String key) {

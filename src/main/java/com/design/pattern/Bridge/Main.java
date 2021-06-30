@@ -10,10 +10,10 @@ public class Main {
 	public static void main(String[] args) {
 		Abstraction ab = new RefinedAbstraction();
 		
-		ab.setImplementor(new ConcrateImplementorA());
+		ab.setImplementor(new ConcreteImplementorA());
 		ab.opreation();
 		
-		ab.setImplementor(new ConcrateImplementorB());
+		ab.setImplementor(new ConcreteImplementorB());
 		ab.opreation();
 	}
 }

@@ -8,14 +8,14 @@ package com.design.pattern.Iterator;
  */
 public class Main {
 	public static void main(String[] args) {
-		ConcrateAggregate a = new ConcrateAggregate();
+		ConcreteAggregate a = new ConcreteAggregate();
 		a.set(0, "daniao");
 		a.set(1, "xiaocai");
 		a.set(2, "xingli");
 		a.set(3, "laowai");
 		a.set(4, "gongjiaoneibuyuangong");
 		a.set(5, "xiaotou");
-		Iterator i = new ConcrateIterator(a);
+		Iterator i = new ConcreteIterator(a);
 		Object item = i.first();
 		System.out.println(item);
 		while (!i.isDone()) {

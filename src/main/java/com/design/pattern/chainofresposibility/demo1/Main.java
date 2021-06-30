@@ -8,9 +8,9 @@ package com.design.pattern.chainofresposibility.demo1;
 public class Main {
 	public static void main(String[] args) {
 
-		Handler h1 = new ConcrateHandler1();
-		Handler h2 = new ConcrateHandler2();
-		Handler h3 = new ConcrateHandler3();
+		Handler h1 = new ConcreteHandler1();
+		Handler h2 = new ConcreteHandler2();
+		Handler h3 = new ConcreteHandler3();
 
 		/*
 		 * 设置职责链上家与下家

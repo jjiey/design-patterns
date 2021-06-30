@@ -9,7 +9,7 @@ package com.design.pattern.Command;
 public class Main {
 	public static void main(String[] args) {
 		Receiver reciver = new Receiver();
-		Command command = new ConcrateCommand(reciver);
+		Command command = new ConcreteCommand(reciver);
 		Invoker invoker = new Invoker();
 		
 		invoker.setCommand(command);
