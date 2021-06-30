@@ -1,12 +1,12 @@
-package com.design.pattern.Memento;
+package com.design.pattern.memento.demo1;
 
 /**
  * 单元测试类
  *
  * @author yj
- *
  */
 public class Main {
+
 	public static void main(String[] args) {
 		/**
 		 * 发起人状态设置为on

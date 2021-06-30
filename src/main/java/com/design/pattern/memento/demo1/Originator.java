@@ -1,4 +1,4 @@
-package com.design.pattern.Memento;
+package com.design.pattern.memento.demo1;
 
 import lombok.Setter;
 
@@ -6,10 +6,10 @@ import lombok.Setter;
  * 发起人
  * 
  * @author yj
- * 
  */
 @Setter
 public class Originator {
+
 	/**
 	 * 需要保存的属性，可能有多个
 	 */
