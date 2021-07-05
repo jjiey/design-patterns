@@ -1,5 +1,7 @@
 ## 职责链模式（行为型）
 
+Chain Of Responsibility Design Pattern
+
 ### 定义
 
 在 GoF 的《设计模式》中，它是这么定义的：

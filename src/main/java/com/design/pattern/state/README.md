@@ -1,5 +1,7 @@
 ## 状态模式（行为型）
 
+Finite State Machine：缩写为 FSM，简称为状态机
+
 状态机又叫有限状态机，状态机由 3 个组成部分：
 状态（State）
 事件（Event）（也称为转移条件（Transition Condition））

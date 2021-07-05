@@ -1,5 +1,7 @@
 ## 观察者模式（行为型）
 
+Observer Design Pattern
+
 观察者模式也被称为发布订阅模式。
 
 还有各种叫法：Subject-Observer、Publisher-Subscriber、Producer-Consumer、EventEmitter-EventListener、Dispatcher-Listener

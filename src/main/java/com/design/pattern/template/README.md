@@ -1,5 +1,7 @@
 ## 模板方法设计模式（行为型）
 
+Template Method Design Pattern
+
 ### 定义
 
 在 GoF 的《设计模式》一书中，它是这么定义的：
