@@ -23,9 +23,11 @@ Command Design Pattern
 
 ### code
 
+命令模式用到最核心的实现手段，就是将函数封装成对象
+
 demo1：大话设计模式
 
-demo2：
+demo2：应用场景
 
 ------
 

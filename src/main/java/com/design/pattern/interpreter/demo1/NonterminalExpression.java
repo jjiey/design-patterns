@@ -1,10 +1,9 @@
-package com.design.pattern.Interpreter;
+package com.design.pattern.interpreter.demo1;
 
 /**
  * 非终结符表达式
  *
  * @author yj
- *
  */
 public class NonterminalExpression extends AbstractExpression {
 
@@ -12,5 +11,4 @@ public class NonterminalExpression extends AbstractExpression {
 	public void Interpreter(Context context) {
 		System.out.println("非终端解释器");
 	}
-
 }

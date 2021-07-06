@@ -1,4 +1,4 @@
-package com.design.pattern.Interpreter;
+package com.design.pattern.interpreter.demo1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.List;
  * 单元测试类
  *
  * @author yj
- *
  */
 public class Main {
+
 	public static void main(String[] args) {
 		Context context = new Context();
 		
