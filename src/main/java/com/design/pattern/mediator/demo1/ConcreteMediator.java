@@ -1,4 +1,4 @@
-package com.design.pattern.Mediator;
+package com.design.pattern.mediator.demo1;
 
 import lombok.Setter;
 
@@ -6,11 +6,12 @@ import lombok.Setter;
  * 具体中介者类
  *
  * @author yj
- *
  */
 @Setter
 public class ConcreteMediator extends Mediator {
+
 	private ConcreteColleague1 colleague1;
+
 	private ConcreteColleague2 colleague2;
 	
 	@Override
@@ -21,5 +22,4 @@ public class ConcreteMediator extends Mediator {
 			colleague1.notify(message);
 		}
 	}
-	
 }

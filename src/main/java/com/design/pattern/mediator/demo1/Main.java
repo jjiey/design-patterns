@@ -1,10 +1,9 @@
-package com.design.pattern.Mediator;
+package com.design.pattern.mediator.demo1;
 
 /**
  * 单元测试类
  *
  * @author yj
- *
  */
 public class Main {
 	
@@ -20,5 +19,4 @@ public class Main {
 		colleague1.send("吃过饭了吗?");
 		colleague2.send("没有呢，你打算请客?");
 	}
-	
 }
