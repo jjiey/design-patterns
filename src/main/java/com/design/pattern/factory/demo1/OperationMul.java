@@ -1,7 +1,8 @@
-package com.design.pattern.Factory;
+package com.design.pattern.factory.demo1;
 
 /**
  * 乘法类
+ *
  * @author yj
  */
 public class OperationMul extends Operation {
@@ -10,5 +11,4 @@ public class OperationMul extends Operation {
 	public double getResult() {
 		return getNumberA() * getNumberB();
 	}
-
 }

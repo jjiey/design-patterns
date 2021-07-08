@@ -1,7 +1,7 @@
 package com.design.pattern.AbstractFactory;
 
-import com.design.pattern.Factory.Operation;
-import com.design.pattern.Factory.OperationSub;
+import com.design.pattern.factory.demo1.Operation;
+import com.design.pattern.factory.demo1.OperationSub;
 
 /**
  * 减法工厂

@@ -1,7 +1,8 @@
-package com.design.pattern.Factory;
+package com.design.pattern.factory.demo1;
 
 /**
  * 工厂类
+ *
  * @author yj
  */
 public class OperationFactory {
@@ -24,6 +25,4 @@ public class OperationFactory {
         }
         return operation;
     }
-
-
 }

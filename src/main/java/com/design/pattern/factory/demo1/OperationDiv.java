@@ -1,9 +1,10 @@
-package com.design.pattern.Factory;
+package com.design.pattern.factory.demo1;
 
 import com.design.pattern.PatternsUtil;
 
 /**
  * 除法类
+ *
  * @author yj
  */
 public class OperationDiv extends Operation {
@@ -15,5 +16,4 @@ public class OperationDiv extends Operation {
 		}
 		return getNumberA() / getNumberB();
 	}
-
 }

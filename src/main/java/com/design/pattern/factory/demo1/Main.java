@@ -1,7 +1,8 @@
-package com.design.pattern.Factory;
+package com.design.pattern.factory.demo1;
 
 /**
  * 单元测试类
+ *
  * @author yj
  */
 public class Main {
@@ -14,5 +15,4 @@ public class Main {
         double result = operation.getResult();
         System.out.println(result);
     }
-
 }

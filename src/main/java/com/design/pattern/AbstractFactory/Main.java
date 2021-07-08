@@ -1,6 +1,6 @@
 package com.design.pattern.AbstractFactory;
 
-import com.design.pattern.Factory.Operation;
+import com.design.pattern.factory.demo1.Operation;
 
 /**
  * 单元测试类
