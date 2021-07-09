@@ -40,7 +40,8 @@ public class ClassUtil {
         }
     }
 
-    public static class View {}
+    public static class View {
+    }
 
     public interface OnClickListener {
 
@@ -48,6 +49,5 @@ public class ClassUtil {
     }
 
     public interface Component {
-
     }
 }
