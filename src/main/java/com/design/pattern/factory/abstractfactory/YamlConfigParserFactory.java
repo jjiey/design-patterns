@@ -2,8 +2,8 @@ package com.design.pattern.factory.abstractfactory;
 
 import com.design.pattern.factory.abstractfactory.newparser.ISystemConfigParser;
 import com.design.pattern.factory.abstractfactory.newparser.YamlSystemConfigParser;
-import com.design.pattern.factory.simplefactory.parser.IRuleConfigParser;
-import com.design.pattern.factory.simplefactory.parser.YamlRuleConfigParser;
+import com.design.pattern.factory.simplefactory.demo2.parser.IRuleConfigParser;
+import com.design.pattern.factory.simplefactory.demo2.parser.YamlRuleConfigParser;
 
 /**
  * @author yangsanity
