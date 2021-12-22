@@ -1,4 +1,4 @@
-package com.design.pattern.Builder;
+package com.design.pattern.builder;
 
 /**
  * 单元测试类

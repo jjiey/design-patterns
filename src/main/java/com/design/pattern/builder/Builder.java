@@ -1,4 +1,4 @@
-package com.design.pattern.Builder;
+package com.design.pattern.builder;
 
 /**
  * 抽象建造者，确定产品有两个部分A和B组成,并声明一个得到产品组合后得到结果的方法getResult.

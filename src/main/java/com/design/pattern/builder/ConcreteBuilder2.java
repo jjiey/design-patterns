@@ -1,23 +1,23 @@
-package com.design.pattern.Builder;
+package com.design.pattern.builder;
 
 /**
- * 具体建造者1
- * 
+ * 具体建造者2
+ *
  * @author yj
- * 
+ *
  */
-public class ConcreteBuilder1 extends Builder {
+public class ConcreteBuilder2 extends Builder {
 
 	private Product product = new Product();
-
+	
 	@Override
 	public void buildPartA() {
-		product.add("部件A");
+		product.add("部件X");
 	}
 
 	@Override
 	public void buildPartB() {
-		product.add("部件B");
+		product.add("部件Y");
 	}
 
 	@Override
